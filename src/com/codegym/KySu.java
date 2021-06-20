@@ -11,7 +11,7 @@ public class KySu extends CanBo{
     }
 
     public KySu(String name, String namSinh, String gioiTinh, String diaChi, String nganh) {
-        super(name, namSinh, name, namSinh, gioiTinh);
+        super(name, namSinh, gioiTinh, diaChi);
         this.nganh = nganh;
     }
 

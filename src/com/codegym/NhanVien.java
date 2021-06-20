@@ -1,11 +1,13 @@
 package com.codegym;
 
 public class NhanVien extends CanBo{
-    public NhanVien() {
-    }
+
+public NhanVien(){
+
+}
 
     public NhanVien(String name, String namSinh, String gioiTinh, String diaChi) {
-        super(name, namSinh, name, namSinh, gioiTinh);
+        super(name, namSinh, gioiTinh, diaChi);
     }
 
     @Override

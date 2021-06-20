@@ -9,14 +9,12 @@ String diaChi;
     public CanBo() {
     }
 
-    public CanBo(String s, String sinh, String name, String namSinh, String gioiTinh) {
+    public CanBo(String name, String namSinh, String gioiTinh, String diaChi) {
         this.name = name;
         this.namSinh = namSinh;
         this.gioiTinh = gioiTinh;
         this.diaChi = diaChi;
     }
-
-
 
     public String getName() {
         return name;

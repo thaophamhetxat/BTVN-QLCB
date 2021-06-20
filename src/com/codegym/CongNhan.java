@@ -13,11 +13,10 @@ public class CongNhan extends CanBo {
     }
 
     public CongNhan(String name, String namSinh, String gioiTinh, String diaChi, String bac, String nganh) {
-        super(name, namSinh, name, namSinh, gioiTinh);
+        super(name, namSinh, gioiTinh, diaChi);
         this.bac = bac;
         this.nganh = nganh;
     }
-
 
     public String getBac() {
         return bac;
